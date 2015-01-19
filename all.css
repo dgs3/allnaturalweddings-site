@@ -1,0 +1,305 @@
+a:link, a:visited {
+	text-decoration:none;
+	color:#000;
+}
+
+a:hover, a:active {
+	color:gray;
+}
+
+p, li{
+	padding:0;
+	margin:0 0 15px 0;
+	font-size:15px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	padding:0;
+	margin:0;
+	font-size:20px;
+	font-weight:bold;
+}
+
+.title{
+	margin-bottom:15px;
+}
+
+body {
+	background:url(images/repeatermed.jpg);
+	margin:0;
+	text-align: center;
+	color:#686558;
+	font-family:'Helvetica Neue', verdana, arial, sans-serif;
+	line-height:150%;
+}
+
+#whitefade{
+	background:url(images/whitefade4.png) bottom center repeat-x;
+	width:100%;
+	height:531px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+#wrapper {
+	margin-left: auto;
+    margin-right: auto;
+    width:1080px;
+    text-align:left;
+	position:relative;
+	
+	/*-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+	border:15px solid #C6C3B6;*/
+}
+
+#header {
+	width:1080px;
+	position:relative;
+	text-align:left;
+	height:163px;
+	margin:20px auto 0;
+}
+
+#logo{
+	position:relative;
+	margin:0 0 -1px 7px;
+	left:0;
+	top:0;
+}
+
+#logohome{
+	position:absolute;
+	bottom:0;
+	left:10px;
+	z-index:999;
+}
+	
+
+#nav {
+	position:absolute;
+	bottom:-10px;
+	right:0;
+	font-size:13px;
+}
+
+#nav ul{
+	margin: 0; padding: 0;
+	float: left;
+}
+        
+#nav ul li{
+	display: inline-block;
+	padding: 0 0 0 20px;
+	vertical-align:top !important;
+}
+
+#nav a:link, #nav a:visited {
+	text-decoration:none;
+	color:#000;
+}
+
+#nav a:hover, #nav a:active {
+	color:gray;
+}
+
+#promo{
+	
+}
+
+#main {
+	position:relative;
+	padding:20px;
+	background:#fff;
+border:5px solid #C6C3B5;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+}
+
+#phototree{
+	position:absolute;
+	bottom:0;
+	right:0;
+}
+
+#contact ul{
+	margin:0;
+	padding:0;
+}
+
+#contact ul li{
+	list-style-type:none;
+	padding:0 0 15px 0;
+	margin:0;
+}
+
+
+
+
+.floatleft{
+	float:left;
+	margin:0 15px 15px 0;
+}
+
+.floatright{
+	float:right;
+	margin:0 5px 15px 15px;
+}
+
+.floatleft img, .floatright img, .special img{
+	border:5px solid #C6C3B5;
+	-webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
+box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+}
+
+.special img{
+	margin:0 20px 20px 0;
+}
+
+.floatleft .title img, .floatright .title img{
+	border:0;
+	-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+-webkit-border-radius:0;
+-moz-border-radius: 0;
+border-radius: 0;
+
+}
+
+#footer {
+	position:relative;
+
+}
+
+#footertext{
+	position:relative;
+	margin:30px auto;
+	width:450px;
+}
+
+#footertext td{
+	vertical-align:top;
+}
+
+#footertext p{
+	font-size:11px;
+	color:#646464;
+	margin:0;
+	padding:0;
+	line-height:130%;
+}
+
+#footer a:link, #footer a:visited {
+	text-decoration:none;
+	color:#646464;
+}
+
+#footer a:hover, #footer :active {
+	color:#000;
+}
+
+
+
+/* CONTACT */
+
+#contact {
+	width:430px;
+	position:relative;
+	float:right;
+	margin:0 10px 0 20px;
+	
+	background:#A3A094;
+	padding:15px;
+-webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
+box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+}
+
+#contact p {
+	margin-left:0px;
+}
+
+#contact ul li {
+	list-style-type:none;
+	width:430px;
+	font-size:14px;
+	color:#fff;
+}
+
+#contact ul {
+	margin: 0; padding: 0;
+    left:0;
+    width:430px;
+}
+
+
+fieldset {
+	border:0;
+	width:430px;
+	margin:0;
+	padding:0;
+}
+
+label {  
+	text-align:left;
+	font-size:14px;
+	color:#fff;
+}
+
+.formstyle {
+	background-color:#fff;
+	border:1px solid #000;
+	width:430px;
+	margin-bottom:10px;
+	font-size:13px;
+	font-family:'Helvetica Neue', Helvetica, arial, sans-serif;
+}
+
+.fulltext {
+	background-color:#fff;
+	border:1px solid #000;
+	width:430px;
+	height:150px;
+	font-size:13px;
+	font-family:'Helvetica Neue', Helvetica, arial, sans-serif;
+
+}
+
+.submitbutton {
+	border:1px solid #000;
+	margin-top:10px;
+	background-color:#3D65A5;
+	color:#fff;
+}
+
+.formmessage {
+	position:relative;
+	top:0;
+	float:right;
+	margin:0; padding:0;
+}
+
+.redtext {
+	color:red;
+	position:relative;
+	top:0;
+	float:right;
+	margin:0; padding:0;
+}
+
+#errormessage{
+	color:#fff;
+
+	text-align:center;
+}
